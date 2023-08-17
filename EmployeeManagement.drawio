@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T11:02:17.020Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6f2Cq-qsqXfNNSxVuCEM" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T02:47:30.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ksFXD17PgeLHwplo6oEe" version="21.6.8" type="github">
   <diagram name="Page-1" id="yYdE8fevcW1kotKpUtS1">
     <mxGraphModel dx="4548" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -121,51 +121,51 @@
           <mxGeometry x="-990" y="630" width="410" height="620" as="geometry" />
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: Long&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- username: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- password: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- email: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- role: Role&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ viewProfile()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1840" y="797.5" width="160" height="210" as="geometry" />
+          <mxGeometry x="-1870" y="885" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" edge="1" parent="1" source="0ZDP7mP9zb8yZb6EwsvK-2" target="0ZDP7mP9zb8yZb6EwsvK-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Admin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ addEmployee()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ deleteEmployee()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateRoleToEmployee()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1600" y="697.5" width="160" height="80" as="geometry" />
+          <mxGeometry x="-1630" y="785" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Employee&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- firstName: String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- lastName: String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- gender: enum&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- dateOfBirth: Date&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- phoneNumber: String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ markAttendance()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ viewProfile()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1600" y="987.5" width="160" height="155" as="geometry" />
+          <mxGeometry x="-1630" y="1075" width="160" height="155" as="geometry" />
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;HR - Employee&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ checkAttendance()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createAttendanceReport()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateInformation()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1220" y="787.5" width="160" height="85" as="geometry" />
+          <mxGeometry x="-1250" y="875" width="160" height="85" as="geometry" />
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Attendance&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: Long&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- date: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- employeeId: Long&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- checkInTime: Time&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- checkOutTime: Time&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- status: String&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ checkIn()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ checkOut()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setStatus()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ checkAttendance()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createReport()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1220" y="942.5" width="160" height="210" as="geometry" />
+          <mxGeometry x="-1250" y="1030" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-24" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="0ZDP7mP9zb8yZb6EwsvK-2" target="0ZDP7mP9zb8yZb6EwsvK-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1250" y="837.5" as="sourcePoint" />
-            <mxPoint x="-1390" y="727.5" as="targetPoint" />
+            <mxPoint x="-1280" y="925" as="sourcePoint" />
+            <mxPoint x="-1420" y="815" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-25" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="0ZDP7mP9zb8yZb6EwsvK-3" target="0ZDP7mP9zb8yZb6EwsvK-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1530" y="857.5" as="sourcePoint" />
-            <mxPoint x="-1650" y="957.5" as="targetPoint" />
+            <mxPoint x="-1560" y="945" as="sourcePoint" />
+            <mxPoint x="-1680" y="1045" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-28" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="0ZDP7mP9zb8yZb6EwsvK-4" target="0ZDP7mP9zb8yZb6EwsvK-3">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1220" y="862.5" as="sourcePoint" />
-            <mxPoint x="-1220" y="787.5" as="targetPoint" />
+            <mxPoint x="-1250" y="950" as="sourcePoint" />
+            <mxPoint x="-1250" y="875" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-30" value="" style="endArrow=none;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="0ZDP7mP9zb8yZb6EwsvK-5" target="0ZDP7mP9zb8yZb6EwsvK-3">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1350" y="1027.5" as="sourcePoint" />
-            <mxPoint x="-1190" y="1027.5" as="targetPoint" />
+            <mxPoint x="-1380" y="1115" as="sourcePoint" />
+            <mxPoint x="-1220" y="1115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-31" value="" style="endArrow=none;endFill=0;endSize=12;html=1;rounded=0;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="0ZDP7mP9zb8yZb6EwsvK-5" target="0ZDP7mP9zb8yZb6EwsvK-4">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1070" y="1122.5" as="sourcePoint" />
-            <mxPoint x="-1100" y="1017.5" as="targetPoint" />
+            <mxPoint x="-1100" y="1210" as="sourcePoint" />
+            <mxPoint x="-1130" y="1105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-32" value="View attendance" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -175,7 +175,7 @@
           <mxGeometry x="-185" y="685" width="171" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="0ZDP7mP9zb8yZb6EwsvK-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Attendance config&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: Long&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- workingDaysOfWeek: double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- startWorkTime: LocalTime&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- endWorkTime: LocalTime&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;- lateAndEarlyTime: LocalTime&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ config()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1290" y="490" width="240" height="140" as="geometry" />
+          <mxGeometry x="-1320" y="577.5" width="240" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
