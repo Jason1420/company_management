@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T17:07:34.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hCV9RZ5akir9WV02mfNk" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T04:41:33.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="l4zkgxQahionAWT10TQS" version="21.6.9" type="github">
   <diagram name="Page-1" id="yYdE8fevcW1kotKpUtS1">
-    <mxGraphModel dx="9500" dy="5317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="8625" dy="4788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,26 +30,14 @@
         <mxCell id="iLBCfJWi0I3d8sN683ho-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" parent="1" source="azzmEiPG0c4EjMa-7jpn-5" target="iLBCfJWi0I3d8sN683ho-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="azzmEiPG0c4EjMa-7jpn-5" value="Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-5570" y="-1643.75" width="40" height="67.5" as="geometry" />
-        </mxCell>
         <mxCell id="azzmEiPG0c4EjMa-7jpn-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" parent="1" source="azzmEiPG0c4EjMa-7jpn-10" target="azzmEiPG0c4EjMa-7jpn-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="azzmEiPG0c4EjMa-7jpn-10" value="Log in" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-5290" y="-1888.75" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="azzmEiPG0c4EjMa-7jpn-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;endArrow=block;endFill=0;" parent="1" source="azzmEiPG0c4EjMa-7jpn-12" target="azzmEiPG0c4EjMa-7jpn-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-5467" y="-1152.5" as="sourcePoint" />
-            <mxPoint x="-5467" y="-1352.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="iLBCfJWi0I3d8sN683ho-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" parent="1" source="azzmEiPG0c4EjMa-7jpn-12" target="iLBCfJWi0I3d8sN683ho-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="azzmEiPG0c4EjMa-7jpn-12" value="HR-Employee&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-5600" y="-1050" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="azzmEiPG0c4EjMa-7jpn-13" value="Manage Employees" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-5371" y="-1292.5" width="150" height="60" as="geometry" />
@@ -1429,6 +1417,18 @@
         </mxCell>
         <mxCell id="iLBCfJWi0I3d8sN683ho-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="iLBCfJWi0I3d8sN683ho-660" source="iLBCfJWi0I3d8sN683ho-161" target="iLBCfJWi0I3d8sN683ho-164" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="azzmEiPG0c4EjMa-7jpn-5" value="Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="iLBCfJWi0I3d8sN683ho-660" vertex="1">
+          <mxGeometry x="140" y="855" width="40" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="azzmEiPG0c4EjMa-7jpn-12" value="HR-Employee&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="iLBCfJWi0I3d8sN683ho-660" vertex="1">
+          <mxGeometry x="210" y="1280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="azzmEiPG0c4EjMa-7jpn-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;endArrow=block;endFill=0;" parent="iLBCfJWi0I3d8sN683ho-660" source="azzmEiPG0c4EjMa-7jpn-12" target="azzmEiPG0c4EjMa-7jpn-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="363" y="1377.5" as="sourcePoint" />
+            <mxPoint x="363" y="1177.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
